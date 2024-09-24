@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f8ff; /* Color de fondo claro */
+    color: #232833; /* Color de texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Estilo para el título */
+h1 {
+    color: #0f1035;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #365486;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #365486;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0f1035;
+}
+
+/* Estilo para mostrar el resultado */
+#pokemonResult {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #7fc7d9;
+    border-radius: 10px;
+    background-color: #dcf2f1;
+    width: 300px;
+}
+
+#pokemonResult h2 {
+    font-size: 2rem;
+    color: #0f1035;
+}
+
+#pokemonResult img {
+    width: 150px;
+    height: 150px;
+}
+
+#pokemonResult p {
+    font-size: 1rem;
+    color: #232833;
+}
+
+/* Estilo de mensajes de error */
+#error {
+    color: #d1242f;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
