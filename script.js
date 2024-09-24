@@ -17,7 +17,7 @@ document.getElementById('pokemonForm').addEventListener('submit', function (even
         .then(pokemon => {
             // Voy a insertar todas estas etiquetas en el contenedor especificado
             document.getElementById('pokemonResult').innerHTML = `
-                <h2>${pokemon.name}</h2> 
+                <h2>${(pokemon.name).toUpperCase()}</h2> 
                 <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
                 <p>Altura: ${pokemon.height / 10} m</p>
                 <p>Peso: ${pokemon.weight / 10} kg</p>
